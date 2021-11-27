@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+
+#introduction {
+  background: linear-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)), url('https://wallpaper.dog/large/373583.jpg') 0% 0%/cover 
+}
+
+
+
+
+#feature-rundown img {
+  width: 120px;
+}
+
+/*-===== dev ===== */
+.debug {
+  border: 2px solid red;
+}
+/*============ Utility classes. 
+ Use swush for faster ease of development ============*/
+
+.fill-viewport {
+  min-height: 100vh
+}
+.fill-40-viewport {
+  min-height: 40vh
+}
+.fill-80-viewport {
+  min-height: 80vh
+}
+.fill-90-viewport {
+  min-height: 90vh
+}
+.jumbotron-transparent {
+  background-color: transparent
+}
+.text-white-70 {
+  color: rgba(255,255,255,0.7)
+}
+.text-black-70 {
+  color: white;
+  text-shadow: 0 0 40px rgba(0,0,0,0.8);
+}
+.text-black-40 {
+  color: white;
+  text-shadow: 0 0 40px rgba(0,0,0,0.8);
+}
+.text-white-40 {
+  color: rgba(255,255,255,0.4)
+}
+
+/*== 1. 
+  1. Borders along x an y
+  2. Borders with colors i.e the shades of white and gray above
+  3. Unordered list with borders all round
+  4. Unordered list with borders along y, as in pricing table here
+  5. Border size class*/
+
+.list-border-y li {
+  border-top: 1px solid
+}
+.list-border-y li:last-child {
+  border-bottom: 1px solid
+}
+.list-border-black-20 li,
+.list-border-black-20 li:last-child{
+  border-color: rgba(0,0,0,0.2)
+}
+
+
+
+
+@media screen and (min-width: 768px ){
+  /*need to set flex-basis and have it dependent on size too
+  usage tip: if you want the element to NOT be positioned in the
+  center, add this class to a non `.container` div. Container divs in
+  bootstrap are styled to seat in the center of the page. 
+  */
+  .basis-md-50 {
+    flex-basis: 50%
+  }  
+}
+
+
+/*Isaac Stuff Isaac Stuff Isaac Stuff Isaac Stuff Isaac Stuff Isaac Stuff Isaac Stuff*/
+
+
+.application {
+	text-align: center;
+	overflow: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.button {
+	border-radius: 7px;
+	box-shadow: 0 0 40px rgba(0,0,0,0.1);
+}
+
+.button:hover {
+  background-color: white; /* Green */
+  border-color: white;
+  color: black;
+}
+
+p1 {
+	color: white;
+  	font-weight: bold;
+  	font-size: 80px;
+  	display: inline-block;
+  	text-shadow: 0 0 40px rgba(0,0,0,0.8);
+}
+
+p2 {
+	color: white;
+  	font-weight: bold;
+  	font-size: 40px;
+  	display: inline-block;
+  	text-shadow: 0 0 40px rgba(0,0,0,0.8);
+}
+
+p3 {
+	margin-top: 10px;
+	color: white;
+  	font-weight: bold;
+  	font-size: 20px;
+  	display: inline-block;
+  	text-shadow: 0 0 40px rgba(0,0,0,0.8);
+}
+
+h2 {
+	color: white;
+  	/*font-family: "Avenir Next", sans-serif;*/
+  	font-weight: bold;
+  	font-size: 5000px;
+  	/*text-transform: uppercase;*/
+  	letter-spacing: 0.03em;
+  	display: inline-block;
+  	text-shadow: 0 0 40px rgba(0,0,0,0.8);
+}
+
+h2:hover {
+	color: gray;
+}
+
+@media (min-width: 478px) {
+
+}
+
+h5 {
+	color: white;
+	font-weight: bold;
+}
+
+
+th,td,tr{
+	text-shadow: 0 0 40px rgba(0,0,0,0.8);
+	padding: 15px;
+	color: #fff;
+}
+
+tr:hover {
+	background-color: rgba(204, 255, 255, 0.25);
+}
+
+body {
+	margin: 0;
+	background-image: url("/images/bckgrd4.jpg");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background: linear-gradient(45deg, #00d4ff, #09793c);*/
+	background-attachment: fixed;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+table {
+	/*background: linear-gradient(45deg, #00d4ff, #09793c);*/
+	/*background-color: rgba(191, 191, 191, 0.40);*/
+	/*background-color: rgba(204, 255, 255, 0.40);*/
+	background-color: rgba(66, 170, 245, 0.30);
+	border-collapse: collapse;
+	box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+
+button {
+	background-color: transparent;
+	border: solid;
+	border-width: 3px;
+  	color: white;
+  	padding: 5px 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 50px;
+  	cursor: pointer;
+}
+
+.selectbut {
+	border-color: white;
+	border-radius: 7px;
+	box-shadow: 0 0 40px rgba(0,0,0,0.1);
+}
+
+.selectbut:hover {
+  background-color: white; /* Green */
+  border-color: white;
+  color: black;
+}
+
+.homecard {
+	opacity: 100%
+
+}
+
+.homecard:hover {
+	opacity: 10%;
+}
+
+.homepics {
+	border: solid;
+}
+  

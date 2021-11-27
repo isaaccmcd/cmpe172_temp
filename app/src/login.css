@@ -1,0 +1,119 @@
+@import
+	url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap")
+	;
+
+#introduction {
+	background: linear-gradient(rgba(100, 181, 246, 1), rgba(0, 0, 0, 0.8)),
+		url('https://wallpaper.dog/large/373583.jpg') 0% 0%/cover
+}
+
+html {
+	overflow-y: scroll;
+}
+
+.container {
+	text-align: center;
+}
+
+.log_sign {
+	background-image: url("/images/bckgrd3.jpg");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.form {
+	/*background: #2e74b7;*/
+	background: linear-gradient(30deg, #00d4ff, #2e74b7);
+	opacity: 90%;
+	border-radius: 8px;
+	text-align: center;
+	padding: 40px;
+	/*max-width: 400px;
+  	max-height: 700px;*/
+	min-height: 200px;
+	min-width: 300px;
+	margin: 12% 35% 15% 35%;
+	display: inline-block;
+	justify-content: center;
+}
+
+
+button {
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+}
+
+button:hover{
+	background-color: white;
+	color: black;
+}
+
+input {
+	border-radius: 6px;
+	border-color: transparent;
+	padding: 5px;
+}
+
+input:hover {
+	border-color: black;
+	border-width: 2px;
+}
+
+.signupbut {
+	background-color: white;
+	color: black;
+	border-radius: 6px;
+	font-size: 15px;
+}
+
+.signupbut:hover {
+	background: transparent;
+	color: white;
+	border-color: white;
+}
+
+.navbuts {
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: white;
+	color: black;
+	border-radius: 8px;
+}
+
+.navbuts:hover {
+	border-color: white;
+	background-color: black;
+	color: white;
+}
+
+.navbar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.navbut {
+	border-radius: 8px;
+	margin: 1% 1% 1% 1%;
+	padding: 1%;
+	background-color: transparent;
+	border-radius: 7px;
+	color: white;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+/*.navbut:hover {
+	background-color: white;
+	color: black;
+}*/
